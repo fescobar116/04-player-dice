@@ -11,7 +11,7 @@ public class Player {
 
     public boolean play(){
         int diceValue = dice.roll();
-        System.out.println(diceValue);
+        System.out.println("dice value: " + diceValue);
         return diceValue >= minToWin;
     }
 }
